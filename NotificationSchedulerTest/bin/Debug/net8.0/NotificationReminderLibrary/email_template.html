@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medication Reminder</title>
+    <style>
+        /* General styling */
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .header img {
+            width: 80px;
+        }
+        .header h1 {
+            color: #2a81c9;
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .content {
+            line-height: 1.6;
+        }
+        .content h2 {
+            font-size: 20px;
+            color: #2a81c9;
+            margin-bottom: 10px;
+        }
+        .content p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .reminder-box {
+            background-color: #e7f5fe;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            color: #2a81c9;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #777;
+            margin-top: 20px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #2a81c9;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+        .button:hover {
+            background-color: #1e5f94;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!-- Header Section -->
+    <div class="header">
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.logopeople.in%2Fblog%2Fhospital-logo%2F&psig=AOvVaw0IyazWt1HZnAx0tKsdu_li&ust=1730908408815000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMDenLvGxYkDFQAAAAAdAAAAABAE" alt="Hospital Logo">
+        <h1>Medication Reminder</h1>
+    </div>
+
+    <!-- Content Section -->
+    <div class="content">
+        <h2>Hello, {{patientName}}</h2>
+        <p>We hope you are doing well. This is a reminder from <strong>{{hospitalName}}</strong> to take your prescribed medication as per your schedule.</p>
+
+        <!-- Reminder Box -->
+        <div class="reminder-box">
+            <strong>Medication:</strong> {{medicationName}} <br>
+            <strong>Dosage:</strong> {{dosage}} <br>
+            <strong>Time:</strong> {{time}}
+        </div>
+
+        <p>Please remember to take your medication on time to ensure your well-being. If you have any questions or need assistance, feel free to contact us.</p>
+
+        <a href="https://www.deeth-hospital.com/contact" class="button">Contact Us</a>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p><strong>{{hospitalName}}</strong><br>
+            123 Health St., Wellness City, Country</p>
+        <p>Phone: (123) 456-7890 | Email: support@deeth-hospital.com</p>
+        <p>&copy; {{currentYear}} {{hospitalName}}. All rights reserved.</p>
+    </div>
+</div>
+</body>
+</html>

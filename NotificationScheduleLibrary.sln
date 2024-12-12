@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationScheduleLibrary", "NotificationScheduleLibrary\NotificationScheduleLibrary.csproj", "{FC281F18-79B9-4897-A1C4-3A5037573C23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSchedulerTest", "NotificationSchedulerTest\NotificationSchedulerTest.csproj", "{8B9D22A5-8D8A-4CEC-B0CA-BF19799FBC44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC281F18-79B9-4897-A1C4-3A5037573C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC281F18-79B9-4897-A1C4-3A5037573C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC281F18-79B9-4897-A1C4-3A5037573C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC281F18-79B9-4897-A1C4-3A5037573C23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B9D22A5-8D8A-4CEC-B0CA-BF19799FBC44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B9D22A5-8D8A-4CEC-B0CA-BF19799FBC44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B9D22A5-8D8A-4CEC-B0CA-BF19799FBC44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B9D22A5-8D8A-4CEC-B0CA-BF19799FBC44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
